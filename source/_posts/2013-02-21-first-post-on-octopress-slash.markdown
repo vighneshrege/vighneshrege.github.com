@@ -7,7 +7,7 @@ categories: thoughts
 ---
 
 I've been meaning to try out Octopress for a while now. I started
-blogging on Wordpress and soon realized that creating a GitHub gist
+blogging on [Wordpress](http://codephile.wordpress.com/) and soon realized that creating a GitHub gist
 everytime I wish to insert a code snippet is not an appropriate way to
 while away time. There started my hunt for a blogging platform with
 native code formatting support.
@@ -41,7 +41,8 @@ with that and then some more with [Jekyll](http://jekyllrb.com/), before
 discovering [Octopress](http://octopress.org/). And now, you find me
 here!
 
-Markdown and `rake` tasks to generate content? HELL YEAH.
+Markdown, `rake` tasks to generate content and your favorite editor to
+create posts? HELL YEAH.
 More on this later. I might do a how-to post on using Octopress, but
 really the [documentation](http://octopress.org/docs/setup/) is pretty sweet.
 
