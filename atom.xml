@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Fix more, whine less]]></title>
+  <link href="http://codephile.github.com/atom.xml" rel="self"/>
+  <link href="http://codephile.github.com/"/>
+  <updated>2013-02-23T06:11:04-08:00</updated>
+  <id>http://codephile.github.com/</id>
+  <author>
+    <name><![CDATA[Vighnesh Rege]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First post on Octopress]]></title>
+    <link href="http://codephile.github.com/blog/2013/02/21/first-post-on-octopress-slash/"/>
+    <updated>2013-02-21T22:57:00-08:00</updated>
+    <id>http://codephile.github.com/blog/2013/02/21/first-post-on-octopress-slash</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been meaning to try out Octopress for a while now. I started
+blogging on <a href="http://codephile.wordpress.com/">Wordpress</a> and soon realized that creating a GitHub gist
+everytime I wish to insert a code snippet is not an appropriate way to
+while away time. There started my hunt for a blogging platform with
+native code formatting support.</p>
+
+<!-- more -->
+
+
+<p>Mind you, Wordpress does support code snippets natively with
+<code>[sourcecode ruby] ... [/sourcecode]</code> lines, but it seems too verbose and
+looks really ugly. And I don&#8217;t settle for verbose or ugly, especially
+when wonderful things like <em>Markdown</em> exist in this world.</p>
+
+<p>With Markdown, I can do this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span>
+</span><span class='line'>  <span class="s2">&quot;old macdonald&quot;</span><span class="o">.</span><span class="n">titleize</span> <span class="o">+</span> <span class="s2">&quot;HAD A FARM&quot;</span><span class="o">.</span><span class="n">downcase</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and this!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sql'><span class='line'><span class="k">SELECT</span> <span class="n">u</span><span class="p">.</span><span class="n">name</span>
+</span><span class='line'><span class="k">FROM</span> <span class="p">(</span><span class="n">Users</span> <span class="n">u</span> <span class="k">INNER</span> <span class="k">JOIN</span> <span class="n">Likes</span> <span class="n">l</span> <span class="k">INNER</span> <span class="k">JOIN</span> <span class="n">Movies</span> <span class="n">m</span>
+</span><span class='line'>          <span class="k">ON</span> <span class="n">u</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">l</span><span class="p">.</span><span class="n">user_id</span> <span class="k">AND</span> <span class="n">l</span><span class="p">.</span><span class="n">movie_id</span> <span class="o">=</span> <span class="n">m</span><span class="p">.</span><span class="n">id</span><span class="p">)</span>
+</span><span class='line'><span class="k">WHERE</span> <span class="n">m</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan&#39;</span>
+</span><span class='line'>        <span class="k">AND</span> <span class="n">u</span><span class="p">.</span><span class="n">sex</span> <span class="o">=</span> <span class="s1">&#39;female&#39;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I&#8217;ve always made thorough use of GitHub Wikis and for a long time I kept
+wishing I could blog on the GitHub Pages platform. One day, I was
+feeling extra sharp and I googled &#8216;host blogs on github pages&#8217;, which
+got me to <a href="http://pages.github.com/">this</a>. I floundered about a little
+with that and then some more with <a href="http://jekyllrb.com/">Jekyll</a>, before
+discovering <a href="http://octopress.org/">Octopress</a>. And now, you find me
+here!</p>
+
+<p>Markdown, <code>rake</code> tasks to generate content and your favorite editor to
+create posts? HELL YEAH.
+More on this later. I might do a how-to post on using Octopress, but
+really the <a href="http://octopress.org/docs/setup/">documentation</a> is pretty sweet.</p>
+
+<p>Adios!</p>
+]]></content>
+  </entry>
+  
+</feed>

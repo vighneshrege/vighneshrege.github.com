@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: thoughts | Fix more, whine less]]></title>
+  <link href="http://codephile.github.com/blog/categories/thoughts/atom.xml" rel="self"/>
+  <link href="http://codephile.github.com/"/>
+  <updated>2013-02-23T06:11:04-08:00</updated>
+  <id>http://codephile.github.com/</id>
+  <author>
+    <name><![CDATA[Vighnesh Rege]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First post on Octopress]]></title>
+    <link href="http://codephile.github.com/blog/2013/02/21/first-post-on-octopress-slash/"/>
+    <updated>2013-02-21T22:57:00-08:00</updated>
+    <id>http://codephile.github.com/blog/2013/02/21/first-post-on-octopress-slash</id>
+    <content type="html"><![CDATA[<p>I've been meaning to try out Octopress for a while now. I started
+blogging on <a href="http://codephile.wordpress.com/">Wordpress</a> and soon realized that creating a GitHub gist
+everytime I wish to insert a code snippet is not an appropriate way to
+while away time. There started my hunt for a blogging platform with
+native code formatting support.</p>
+
+<!-- more -->
+
+
+<p>Mind you, Wordpress does support code snippets natively with
+<code>[sourcecode ruby] ... [/sourcecode]</code> lines, but it seems too verbose and
+looks really ugly. And I don't settle for verbose or ugly, especially
+when wonderful things like <em>Markdown</em> exist in this world.</p>
+
+<p>With Markdown, I can do this:
+```ruby
+def</p>
+
+<pre><code>"old macdonald".titleize + "HAD A FARM".downcase
+</code></pre>
+
+<p>end
+<code>
+and this!
+</code>sql
+SELECT u.name
+FROM (Users u INNER JOIN Likes l INNER JOIN Movies m</p>
+
+<pre><code>        ON u.id = l.user_id AND l.movie_id = m.id)
+</code></pre>
+
+<p>WHERE m.title = 'Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan'</p>
+
+<pre><code>      AND u.sex = 'female';
+</code></pre>
+
+<p>```</p>
+
+<p>I've always made thorough use of GitHub Wikis and for a long time I kept
+wishing I could blog on the GitHub Pages platform. One day, I was
+feeling extra sharp and I googled 'host blogs on github pages', which
+got me to <a href="http://pages.github.com/">this</a>. I floundered about a little
+with that and then some more with <a href="http://jekyllrb.com/">Jekyll</a>, before
+discovering <a href="http://octopress.org/">Octopress</a>. And now, you find me
+here!</p>
+
+<p>Markdown, <code>rake</code> tasks to generate content and your favorite editor to
+create posts? HELL YEAH.
+More on this later. I might do a how-to post on using Octopress, but
+really the <a href="http://octopress.org/docs/setup/">documentation</a> is pretty sweet.</p>
+
+<p>Adios!</p>
+]]></content>
+  </entry>
+  
+</feed>
